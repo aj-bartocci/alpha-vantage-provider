@@ -9,7 +9,7 @@ import Vapor
 import AlphaVantage
 
 public final class Provider: Vapor.Provider {
-    public static var repositoryName: String = "AlphaVantage"
+    public static var repositoryName: String = "alpha-vantage-provider"
     private let apiKey: String
     
     public func boot(_ config: Config) throws {
