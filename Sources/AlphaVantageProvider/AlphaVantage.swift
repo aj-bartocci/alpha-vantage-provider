@@ -11,7 +11,7 @@ import AlphaVantage
 public class AlphaVantage {
     fileprivate static let apiErrorMessage = "API key has not been set. You must call AlphaVantage.setup(with apiKey) before attempting to make any calls. Typically set during app launch"
     fileprivate static var apiKey: String?
-    public static func setup(with apiKey: String) {
+    static func setup(with apiKey: String) {
         self.apiKey = apiKey
     }
     
