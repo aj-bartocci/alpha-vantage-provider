@@ -6,7 +6,7 @@
 //
 
 import Vapor
-import AlphaVantage
+import AlphaVantageDriver
 
 public final class Provider: Vapor.Provider {
     public static var repositoryName: String = "alpha-vantage-provider"

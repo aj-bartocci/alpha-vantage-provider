@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import AlphaVantage
+import AlphaVantageDriver
 
 final public class AlphaVantageService {
     public static func setup(apiKey: String, session: URLSession = .shared) {
