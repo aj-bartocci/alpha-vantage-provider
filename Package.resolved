@@ -2,12 +2,12 @@
   "object": {
     "pins": [
       {
-        "package": "AlphaVantage",
-        "repositoryURL": "https://github.com/aj-bartocci/AlphaVantage.git",
+        "package": "AlphaVantageDriver",
+        "repositoryURL": "https://github.com/aj-bartocci/alpha-vantage-driver.git",
         "state": {
           "branch": null,
-          "revision": "1ec574e17761197a873ef3d83621eec46f0a81d1",
-          "version": "1.0.1"
+          "revision": "ed46d5005a34cfb38a46e3b85bd0e1dbf71cb0a6",
+          "version": "1.0.0"
         }
       },
       {
@@ -132,8 +132,8 @@
         "repositoryURL": "https://github.com/vapor/sockets.git",
         "state": {
           "branch": null,
-          "revision": "fb839a109d256e843945086f0730b49e4eeed091",
-          "version": "2.2.0"
+          "revision": "70d14c0e223257176f5ef69a595f7cad5de7a88b",
+          "version": "2.2.1"
         }
       },
       {
@@ -150,8 +150,8 @@
         "repositoryURL": "https://github.com/vapor/vapor.git",
         "state": {
           "branch": null,
-          "revision": "59bde985edbdf6480c541485317c8d41cc5fefb7",
-          "version": "2.2.2"
+          "revision": "0747ab4819f90c9be451847f80a153184526ad79",
+          "version": "2.3.0"
         }
       }
     ]
