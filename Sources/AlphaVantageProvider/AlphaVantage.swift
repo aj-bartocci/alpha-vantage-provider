@@ -28,7 +28,7 @@ public struct AlphaVantage {
     public static var shared = AlphaVantage() 
     
     fileprivate init() { }
-    init(apiKey: String, session: URLSession) {
+    public init(apiKey: String, session: URLSession) {
         self.apiKey = apiKey
         self.session = session
     }
